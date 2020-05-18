@@ -1,0 +1,29 @@
+name: pupil
+channels:
+  - conda-forge
+  - phausamann
+dependencies:
+  - python=3.6
+  - pip
+  - packaging
+  - numpy
+  - scipy
+  - opencv
+  - ffmpeg
+  - x264
+  - msgpack-python=0.5.6
+  - numexpr
+  - psutil
+  - pyaudio
+  - pyopengl
+  - glfw
+  - pyzmq
+  - pyuvc
+  - pupil-detectors
+  - pyglui
+  - av=0.4.4=py36h32c2a0b_1
+  - ndsi
+  - librealsense2
+  - pip:
+    - pyrealsense2
+    - pupil-apriltags
